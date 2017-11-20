@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Messaging.MainPage">
+	<ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label x:Name="Label1" Text="Hello world" />
+            <Button Text="Go to page 2" Clicked="OnClick" />
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
