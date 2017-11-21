@@ -14,7 +14,7 @@ namespace Messaging
         public void OnClicked(object o, EventArgs e)
         {
             var mainPage = new MainPage();
-            MessagingCenter.Send<MainPage>(mainPage, "Changed");
+            MessagingCenter.Send<MainPage>(mainPage, "Change");
             Navigation.PopAsync();
         }
     }
